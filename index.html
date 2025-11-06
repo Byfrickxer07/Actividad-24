@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectar Wallet - MetaMask</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="metamask-logo">🦁</div>
+            <h1>Conexión Web3</h1>
+            <p class="subtitle">Conectá tu wallet para interactuar con la blockchain</p>
+        </div>
+
+        <button class="connect-btn" id="connectBtn">
+            Conectar Wallet
+        </button>
+
+        <div class="error-message" id="errorMsg"></div>
+
+        <div class="wallet-info" id="walletInfo">
+            <p>
+                <span class="status-indicator"></span>
+                <strong>Wallet Conectada</strong>
+            </p>
+            <div class="wallet-address" id="walletAddress"></div>
+            <div class="network-info" id="networkInfo"></div>
+            <div class="balance" id="balance"></div>
+        </div>
+
+        <div class="footer">
+            <p>Proyecto de Blockchain</p>
+            <p class="author">Desarrollado por: Thomas Fricker 7mo2da</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
